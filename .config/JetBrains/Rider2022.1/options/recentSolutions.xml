@@ -1,0 +1,35 @@
+<application>
+  <component name="RiderRecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/Projects/Calc/Calc.sln">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Calc – LCalc.Core.csproj" projectWorkspaceId="26CXAUD8Bs2zOPk8dck8Ojpbgkj">
+              <option name="activationTimestamp" value="1655975752262" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="RD-221.5591.20" />
+              <option name="buildTimestamp" value="1651145384420" />
+              <frame x="0" y="24" width="1280" height="776" />
+              <option name="productionCode" value="RD" />
+              <option name="projectOpenTimestamp" value="1655968666428" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Maths/Maths.sln">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Maths – Fact.cs" opened="true" projectWorkspaceId="2BCfivuFeR1luJqzBFL0GkwcxBi">
+              <option name="activationTimestamp" value="1656644377615" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="RD-221.5591.20" />
+              <option name="buildTimestamp" value="1651145370322" />
+              <frame x="1" y="31" width="1278" height="768" extendedState="6" />
+              <option name="productionCode" value="RD" />
+              <option name="projectOpenTimestamp" value="1656642104676" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="$USER_HOME$/Projects" />
+  </component>
+</application>

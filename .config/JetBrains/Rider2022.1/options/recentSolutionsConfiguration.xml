@@ -1,0 +1,24 @@
+<application>
+  <component name="SolutionConfigurationStore">
+    <option name="configurations">
+      <map>
+        <entry key="$USER_HOME$/Projects/Calc/Calc.sln">
+          <value>
+            <ConfigurationInfo>
+              <option name="activeConfiguration" value="Release" />
+              <option name="activePlatform" value="Any CPU" />
+            </ConfigurationInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Maths/Maths.sln">
+          <value>
+            <ConfigurationInfo>
+              <option name="activeConfiguration" value="Release" />
+              <option name="activePlatform" value="Any CPU" />
+            </ConfigurationInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>

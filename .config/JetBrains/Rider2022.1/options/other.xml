@@ -1,0 +1,87 @@
+<application>
+  <component name="DynamicPluginEnabler">
+    <trackers>
+      <map>
+        <entry key="26CXAUD8Bs2zOPk8dck8Ojpbgkj">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="2BCfivuFeR1luJqzBFL0GkwcxBi">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="Default (Template) Project">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+      </map>
+    </trackers>
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "CWM_LOGGING_VERSION": "1",
+    "Debug.Allow.Typing": "true",
+    "ExpandBeforeRunStepsPanel": "true",
+    "InstalledPluginsSearchHistory": "tokyo\ntoky\ntok\nto\ncolorsc",
+    "MarketplacePluginsSearchHistory": "tokyo\nto\nrust",
+    "NextRunPlatformUpdateBuild": "RD-221.5787.36/2022.1.2",
+    "NextRunPlatformUpdateVersion": "2022.1.2",
+    "NonModalCommitCustomization.IsApplied": "true",
+    "RD.Init.Cfg.2": "true",
+    "RD.Init.DialogShown.Ide": "true",
+    "Rider.Last.Started.IDE.Build": "RD-221.5591.20",
+    "RiderUnitTestPanelSplitter.Horizontal": "0.5",
+    "RunOnceActivity.se.text.search": "true",
+    "SettingsSearchHistory": "color\nplugin\ncolor sc",
+    "Tutorials.In.Recent.Projects.Disabled": "true",
+    "ask.about.ctrl.y.shortcut.v2": "true",
+    "bundled.plugins.list.saved.version": "RD-221.5591.20",
+    "com.intellij.ide.navigationToolbar.experimental.showSearchEverywhereHotKeyTip": "false",
+    "debugger.immediate.window.in.watches.proportion.key": "0.68458784",
+    "debugger.smart.chooser.counter": "3",
+    "experimentalFeature.editor.reader.mode": "false",
+    "file.gist.reindex.count": "106",
+    "fileTypeChangedCounter": "2",
+    "ide.updates.whats.new.shown.for": "221",
+    "ignoreUltimateEdition": "true",
+    "input.method.disabler.muted": "true",
+    "last_open_solution_path": "/home/lanlp/Projects/Calc",
+    "last_opened_file_path": "/home/lanlp/Projects",
+    "last_selected_template": "Console Application|.NET / .NET Core",
+    "last_selected_template_parameters": "Language=C#;DockerSupport=Disabled;Framework=net6.0;",
+    "registry.to.advanced.settings.migration.build": "RD-221.5591.20",
+    "selected.color.option.type": "METHOD_SEPARATORS_COLOR",
+    "tasks.pass.word.conversion.enforced": "true",
+    "toolwindow.stripes.buttons.info.shown": "true",
+    "ts.lib.d.ts.version": "4.6.3"
+  },
+  "keyToStringList": {
+    "file.chooser.recent.files": [
+      "/home/lanlp/Projects",
+      "/home/lanlp/Projects/Calc/Calc.sln"
+    ],
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.jetbrains.rider.cpp.fileType.CppHeaderFileTypeDetector",
+      "com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector",
+      "com.intellij.database.vfs.DbStorageFileType$Detector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$JavaScriptFileTypeDetector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$TypeScriptFileTypeDetector",
+      "com.intellij.docker.dockerFile.DockerFileTypeDetector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ]
+  }
+}]]></component>
+  <component name="TerminalCommandHistoryManager">
+    <command-history-files>
+      <command-history-file filename="Maths-history" project-path="$USER_HOME$/Projects/Maths" last-access-time="1656554788347" />
+      <command-history-file filename="Calc-history" project-path="$USER_HOME$/Projects/Calc" last-access-time="1655867029620" />
+    </command-history-files>
+  </component>
+  <component name="ToolbarSettingsService">
+    <option name="SHOW_NEW_MAIN_TOOLBAR" value="true" />
+  </component>
+</application>
