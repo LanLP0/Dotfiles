@@ -33,6 +33,7 @@
     "RD.Init.Cfg.2": "true",
     "RD.Init.DialogShown.Ide": "true",
     "Rider.Last.Started.IDE.Build": "RD-221.5591.20",
+    "RiderNuGetViewSettings.Verbosity": "1",
     "RiderUnitTestPanelSplitter.Horizontal": "0.5",
     "RunOnceActivity.se.text.search": "true",
     "SettingsSearchHistory": "color\nplugin\ncolor sc",
@@ -43,7 +44,7 @@
     "debugger.immediate.window.in.watches.proportion.key": "0.68458784",
     "debugger.smart.chooser.counter": "3",
     "experimentalFeature.editor.reader.mode": "false",
-    "file.gist.reindex.count": "106",
+    "file.gist.reindex.count": "135",
     "fileTypeChangedCounter": "2",
     "ide.updates.whats.new.shown.for": "221",
     "ignoreUltimateEdition": "true",
@@ -60,6 +61,10 @@
   },
   "keyToStringList": {
     "file.chooser.recent.files": [
+      "/home/lanlp/Projects/Maths",
+      "/home/lanlp/Projects/Maths/src/LCalc.Tests/LCalc.Tests.csproj",
+      "/home/lanlp/Projects/Maths/src/LCalc.Cli/LCalc.Cli.csproj",
+      "/home/lanlp/Projects/Maths/src/LCalc/LCalc.Core.csproj",
       "/home/lanlp/Projects",
       "/home/lanlp/Projects/Calc/Calc.sln"
     ],
@@ -77,7 +82,7 @@
 }]]></component>
   <component name="TerminalCommandHistoryManager">
     <command-history-files>
-      <command-history-file filename="Maths-history" project-path="$USER_HOME$/Projects/Maths" last-access-time="1656554788347" />
+      <command-history-file filename="Maths-history" project-path="$USER_HOME$/Projects/Maths" last-access-time="1657074934705" />
       <command-history-file filename="Calc-history" project-path="$USER_HOME$/Projects/Calc" last-access-time="1655867029620" />
     </command-history-files>
   </component>

@@ -57,7 +57,6 @@
         "format-alt": "{ipaddr} "
     },
     "pulseaudio": {
-        "scroll-step": 5, // %, can be a float
         "format": "{icon} {volume}%",
         "format-bluetooth": "{volume}% {icon}",
         "format-source-muted": "",
@@ -70,7 +69,9 @@
             "car": "",
             "default": ["", "", ""]
         },
-        "on-click": "pavucontrol"
+        "on-click": "pavucontrol",
+        "on-scroll-up": "pactl -- set-sink-volume @DEFAULT_SINK@ +5%",
+        "on-scroll-down": "pactl -- set-sink-volume @DEFAULT_SINK@ -5%"
     },
     "custom/ibus": {
         "exec": "if ibus engine | grep Unikey > /dev/null; then echo VN; else echo EN; fi",

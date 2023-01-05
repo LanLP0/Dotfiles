@@ -3,13 +3,13 @@
     <feature id="move.element.left.right" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="editing.completion.smarttype.afternew" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="editing.completion.camelHumps" count="0" last-shown="0" last-used="0" shown-count="0" />
-    <feature id="codeassists.comment.line" count="19" last-shown="0" last-used="1656584988696" shown-count="0" />
+    <feature id="codeassists.comment.line" count="21" last-shown="0" last-used="1657013656135" shown-count="0" />
     <feature id="refactoring.rename" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="navigation.popup.action" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="editing.completion.cancelByControlArrows" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="navigation.popup.symbol" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="find.recent.search" count="0" last-shown="0" last-used="0" shown-count="0" />
-    <feature id="editing.completion.replace" count="1259" last-shown="1655778047354" last-used="1656644649112" shown-count="6" />
+    <feature id="editing.completion.replace" count="1773" last-shown="1655778047354" last-used="1657074346870" shown-count="6" />
     <feature id="switcher" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="codeassists.complete.statement" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="navigation.goto.inspection" count="0" last-shown="0" last-used="0" shown-count="0" />
@@ -20,10 +20,10 @@
     <feature id="editor.delete.line" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="codeassists.overrideimplement" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="navigation.popup.wildcards" count="0" last-shown="0" last-used="0" shown-count="0" />
-    <feature id="refactoring.introduceVariable" count="5" last-shown="0" last-used="1656468094975" shown-count="0" />
+    <feature id="refactoring.introduceVariable" count="7" last-shown="0" last-used="1657017889454" shown-count="0" />
     <feature id="codeassists.quickdefinition" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="find.completion" count="0" last-shown="0" last-used="0" shown-count="0" />
-    <feature id="editing.completion.basic" count="1493" last-shown="0" last-used="1656644649117" shown-count="0" />
+    <feature id="editing.completion.basic" count="2072" last-shown="0" last-used="1657074346879" shown-count="0" />
     <feature id="tag.name.completion" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="editing.completion.postfix" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="NuGet.QuickList" count="0" last-shown="0" last-used="0" shown-count="0" />
@@ -33,10 +33,10 @@
     <feature id="navigation.recent.files" count="1" last-shown="0" last-used="1655721485248" shown-count="0" />
     <feature id="navigation.goto.declaration" count="1" last-shown="0" last-used="1656484601290" shown-count="0" />
     <feature id="scratch" count="0" last-shown="0" last-used="0" shown-count="0" />
-    <feature id="editing.completion.finishByDotEtc" count="228" last-shown="0" last-used="1656643373934" shown-count="0" />
+    <feature id="editing.completion.finishByDotEtc" count="303" last-shown="0" last-used="1657074205586" shown-count="0" />
     <feature id="ui.scheme.quickswitch" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="navigation.goto.implementation" count="0" last-shown="0" last-used="0" shown-count="0" />
-    <feature id="editing.completion.smarttype.general" count="2" last-shown="0" last-used="1656417603916" shown-count="0" />
+    <feature id="editing.completion.smarttype.general" count="4" last-shown="0" last-used="1657027900973" shown-count="0" />
     <feature id="navigation.popup.file.structure" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="editing.completion.finishByCtrlDot" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="navigation.select.in" count="1" last-shown="0" last-used="1655357826730" shown-count="0" />

@@ -1,4 +1,5 @@
-# Default config for sway
+# ear
+# default config for sway
 #
 # Copy this to ~/.config/sway/config and edit it to your liking.
 #
@@ -20,8 +21,19 @@ set $term xfce4-terminal
 # on the original workspace that the command was run on.
 set $menu wofi -I --show drun
 
+# Env for xdg-desktop-portal-wlr
+exec dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
+
 # Border width
 default_border pixel 1
+default_floating_border pixel 1
+
+# Boder color
+client.focused #8CD73650 #8CD73650 #ffffff
+
+# Gaps
+gaps outer 0
+gaps inner 0
 
 # Auto start
 exec ibus-daemon -rxv >> /tmp/ibus.log
@@ -43,13 +55,12 @@ output * {
 # You can get the names of your outputs by running: swaymsg -t get_outputs
 
 ### Idle configuration
-#
-# Example configuration:
-#
-exec swayidle -w \
-         timeout 900 'swaylock -f -c 000000' \
-         timeout 600 'swaymsg "output * dpms off"' resume 'swaymsg "output * dpms on"' \
-         before-sleep 'swaylock -f -c 000000'
+
+set $lock "swaylock --clock --indicator --grace 300 --screenshots --indicator-radius 100 --effect-blur 7x5"
+
+exec swayidle -w timeout 1200 $lock \
+    timeout 2400 'swaymsg "output * dpms off"' \
+	resume 'swaymsg "output * dpms on"'
 
 # This will lock your screen after 300 seconds of inactivity, then turn off
 # your displays after another 300 seconds, and turn your screens back on when
@@ -90,6 +101,10 @@ exec swayidle -w \
     bindsym $mod+Ctrl+Alt+C clipman clear --all
     # Change locale
     bindsym $mod+Alt+Space exec "if ibus engine | grep eng > /dev/null; then ibus engine Unikey > /dev/null; else ibus engine xkb:us::eng > /dev/null; fi; sleep 1; pkill -SIGRTMIN+7 waybar"
+    # Volume keys
+    bindsym XF86AudioMute exec pactl -- set-sink-mute @DEFAULT_SINK@ toggle
+    bindsym XF86AudioRaiseVolume exec pactl -- set-sink-volume @DEFAULT_SINK@ +5%
+    bindsym XF86AudioLowerVolume exec pactl -- set-sink-volume @DEFAULT_SINK@ -5%
 
 #
 # Basics:
@@ -101,7 +116,7 @@ exec swayidle -w \
     bindsym $mod+E exec thunar
 
     # Kill focused window
-    bindsym Alt+f4 kill
+    bindsym $mod+f4 kill
 
     # Start your launcher
     bindsym $mod+slash exec $menu
