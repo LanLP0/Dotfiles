@@ -7,3 +7,6 @@ nmap <leader>nf :NERDTreeFind<CR><Esc>
 
 " Vifm
 nmap <leader>v :Vifm<CR><Esc> 
+
+" CommentToggle
+nmap <leader>c :CommentToggle<CR><Esc>
