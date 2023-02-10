@@ -29,7 +29,7 @@ default_border pixel 1
 default_floating_border pixel 1
 
 # Boder color
-client.focused #8CD73650 #8CD73650 #ffffff
+client.focused #8CD73680 #8CD73680 #ffffff
 
 # Gaps
 gaps outer 0
@@ -85,6 +85,9 @@ exec swayidle -w timeout 1200 $lock \
 #
 # User defines
 #
+    ## Screenshot
+    ## - Ctrl: Full screen
+    ## - Shift: Capture to folder
     # Capture selection to clipboard
     bindsym Print exec grim -g "$(slurp)" - | wl-copy
     # Capture selection to folder
@@ -93,12 +96,15 @@ exec swayidle -w timeout 1200 $lock \
     bindsym Ctrl+Print exec grim - | wl-copy
     # Capture full screen to folder
     bindsym Ctrl+Shift+Print exec grim "$(xdg-user-dir PICTURES)/$(date +'%Y-%m-%d_%H-%M-%S.png')"
+
+    ## Clipboard
     # Clipman select
     bindsym $mod+C exec clipman pick -t wofi
     # Clipman clear select
     bindsym $mod+Alt+C clipman -t wofi
     # Clipman clear all
     bindsym $mod+Ctrl+Alt+C clipman clear --all
+
     # Change locale
     bindsym $mod+Alt+Space exec "if ibus engine | grep eng > /dev/null; then ibus engine Unikey > /dev/null; else ibus engine xkb:us::eng > /dev/null; fi; sleep 1; pkill -SIGRTMIN+7 waybar"
     # Volume keys
