@@ -29,14 +29,14 @@ default_border pixel 1
 default_floating_border pixel 1
 
 # Boder color
-client.focused #8CD73680 #8CD73680 #ffffff
+client.focused #00000080 #8CD73680 #ffffff
 
 # Gaps
 gaps outer 0
 gaps inner 0
 
 # Auto start
-exec ibus-daemon -rxv >> /tmp/ibus.log
+exec ibus-daemon -dr >> /tmp/ibus.log
 exec ntfd
 # clipman
 exec wl-paste -t text --watch clipman store --no-persist
@@ -45,7 +45,7 @@ exec wl-paste -t text --watch clipman store --no-persist
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 output * {
-    background /home/lanlp/Pictures/peakpx-scaled.jpg fill
+    background /home/lanlp/Pictures/Purrple-cat-Sea-of-stars.png fill
 }
 
 # Example configuration:
