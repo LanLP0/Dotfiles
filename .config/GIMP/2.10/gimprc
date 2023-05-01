@@ -63,6 +63,7 @@
 (filter-tool-show-color-options yes)
 (toolbox-wilber no)
 (toolbox-group-menu-mode click)
+(layer-add-mask-type selection)
 (selection-border-radius 2)
 (fill-options
     (style solid)
